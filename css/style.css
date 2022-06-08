@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Poppins:wght@100&family=Tapestry&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.encabezado img {
+    width: 5%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+header nav {
+
+    width: 100%; 
+    position: sticky;
+    background-color:antiquewhite;
+    display: flex;
+
+}
+
+.navbar1{
+    list-style:none;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Koulen', cursive;
+
+}
+
+main div {
+    display:inline-block ;
+    width: 90%; 
+    text-align: center;
+
+}
+
+.navbar2{
+    list-style:none;
+    width: 100%;
+}
+
+.navbar2 li {
+    display: inline-block;
+}
+
+main div li a {
+    text-decoration:none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Koulen', cursive;
+    margin-right: 10px;
+
+}
+
+.promocion {
+    width: 100%;
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+.sale {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.imagenMuchas {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.containerRopa {
+    color: black;
+    width: 100%;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+
+}
+
+.ropaInicio {
+    width: 200px;
+    display: grid;
+
+
+}
+
+.ropaInicio img {
+    width: 100%;
+}
+
+.pie-de-pagina {
+     background-color: antiquewhite;
+     display: grid;
+     grid-template-areas: 
+     "redes-sociales"
+     "copy"
+     ;
+     justify-content: center;
+     grid-gap:1 rem;
+     padding: 1 rem;
+}
+.pie-de-pagina {
+    font-size: 1.3 rem;
+    font-weight: bold;
+    text-align: center;
+    grid-area: copy;
+}
+
+.redes {
+    display: flex;
+    gap: 1rem;
+    grid-area: redes-sociales;
+    justify-content: center;
+
+    }
+
+.redes img {
+    width: 20px;
+
+}
+
+.titulo {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 1px;
+}
+
+@media screen and (max-with: 500px) 
+
+{
+    
+}
+
+/* Hombre*/
+
+.imagen-hombre-1 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Mujer*/
+
+.imagen-mujer-1 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Mas Buscado*/
+
+.imagen-mas-buscado-1 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Ofertas*/
+
+.imagen-ofertas-1 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
