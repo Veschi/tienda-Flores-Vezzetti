@@ -5,64 +5,33 @@
     padding: 0;
 }
 
-
-.encabezado img {
-    width: 5%;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
-
-header nav {
-
-    width: 100%; 
-    position: sticky;
-    background-color:antiquewhite;
-    display: flex;
-
-}
-
-.navbar1{
-    list-style:none;
-    display: flex;
-}
-
-header nav ul li a {
+.bg-propio {
+    background-color:rgb(45, 152, 152);
+    top: 0%;
+    z-index: 999;
     text-decoration:none;
     font-size: 1.2rem;
     color: black;
     font-family: 'Koulen', cursive;
-
 }
 
-main div {
-    display:inline-block ;
-    width: 90%; 
-    text-align: center;
-
-}
-
-.navbar2{
-    list-style:none;
-    width: 100%;
+.nav-item a:hover {
+    color:rgb(130, 130, 130)!important;
 }
 
 .navbar2 li {
     display: inline-block;
-}
-
-main div li a {
     text-decoration:none;
     font-size: 1.2rem;
     color: black;
     font-family: 'Koulen', cursive;
     margin-right: 10px;
-
 }
 
 .promocion {
     width: 100%;
     text-align: center;
-    background-color:antiquewhite;
+    background-color:rgb(45, 152, 152);
 }
 
 .sale {
@@ -70,41 +39,39 @@ main div li a {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-
-.imagenMuchas {
-
+.allCards {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 20px;    
+    
+}   
+.card {
+    display: flex;
+    height: 2fr;
+    width: 2fr ;
+    border-radius: 8px;
+    transition: all 1s;
+ 
 }
 
-.containerRopa {
-    color: black;
-    width: 100%;
-    display: grid;
-    font-family: 'Poppins', sans-serif;
-    grid-template-columns: 200px 200px 200px 200px;
-    justify-content: center;
-
+.card:hover {
+    transform: scale(113%)
+}
+.card-body {
+    display: flex;
+    text-align: center;
 }
 
-.ropaInicio {
-    width: 200px;
-    display: grid;
-
-
+.card-body ul a {
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
 }
 
-.ropaInicio img {
-    width: 100%;
-}
+
 
 .pie-de-pagina {
-     background-color: antiquewhite;
+     background-color:rgb(45, 152, 152);
      display: grid;
      grid-template-areas: 
      "redes-sociales"
@@ -136,7 +103,7 @@ main div li a {
 
 .titulo {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(45, 152, 152);
     width: 100%;
     font-family: 'Poppins', sans-serif;
     padding: 1px;
@@ -148,30 +115,4 @@ main div li a {
     
 }
 
-/* Hombre*/
 
-.imagen-hombre-1 {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-}
-
-/*Mujer*/
-
-.imagen-mujer-1 {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-}
-
-/*Mas Buscado*/
-
-.imagen-mas-buscado-1 {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-}
-
-/*Ofertas*/
-
-.imagen-ofertas-1 {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-}
